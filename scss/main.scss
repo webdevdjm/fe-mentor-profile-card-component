@@ -80,6 +80,10 @@ body {
       border: 5px solid #fff;
       margin-top: -3.5rem;
       margin-bottom: 2rem;
+      transition: transform 0.4s;
+      &:hover {
+        transform: scale(1.2);
+      }
     }
     h1 {
       font-size: 1.1rem;
